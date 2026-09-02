@@ -1,0 +1,120 @@
+{
+  "tokenizers": [
+    "gpt2",
+    "xlm-roberta-base"
+  ],
+  "results": {
+    "eng": {
+      "gpt2": {
+        "per_line_avg_fertility": 1.619599291100116,
+        "per_line_avg_tpc": 0.2753592481296207,
+        "global_fertility": 1.3061352722050177,
+        "global_tpc": 0.23918403576829508,
+        "global_tpb": 0.23861726289551577,
+        "global_tps": 14.551,
+        "total_tokens": 29102,
+        "total_words": 22281,
+        "total_chars": 121672,
+        "total_bytes": 121961,
+        "num_lines": 2000
+      },
+      "xlm-roberta-base": {
+        "per_line_avg_fertility": 1.765017251136383,
+        "per_line_avg_tpc": 0.2989559296995144,
+        "global_fertility": 1.4535703065392038,
+        "global_tpc": 0.2661828522585311,
+        "global_tpb": 0.26555210272136176,
+        "global_tps": 16.1935,
+        "total_tokens": 32387,
+        "total_words": 22281,
+        "total_chars": 121672,
+        "total_bytes": 121961,
+        "num_lines": 2000
+      }
+    },
+    "hin": {
+      "gpt2": {
+        "per_line_avg_fertility": 8.075922101282945,
+        "per_line_avg_tpc": 1.5049137791334628,
+        "global_fertility": 7.192507997916822,
+        "global_tpc": 1.4844794889709552,
+        "global_tpb": 0.5914441283533695,
+        "global_tps": 96.6745,
+        "total_tokens": 193349,
+        "total_words": 26882,
+        "total_chars": 130247,
+        "total_bytes": 326910,
+        "num_lines": 2000
+      },
+      "xlm-roberta-base": {
+        "per_line_avg_fertility": 1.9306356717254665,
+        "per_line_avg_tpc": 0.3605593511109192,
+        "global_fertility": 1.6223867271780374,
+        "global_tpc": 0.33484840341812094,
+        "global_tpb": 0.13340980698051452,
+        "global_tps": 21.8065,
+        "total_tokens": 43613,
+        "total_words": 26882,
+        "total_chars": 130247,
+        "total_bytes": 326910,
+        "num_lines": 2000
+      }
+    },
+    "kan": {
+      "gpt2": {
+        "per_line_avg_fertility": 18.035702630599936,
+        "per_line_avg_tpc": 2.2510367434507144,
+        "global_fertility": 17.75202593192869,
+        "global_tpc": 2.2651381459218,
+        "global_tpb": 0.9309500739456372,
+        "global_tps": 82.1475,
+        "total_tokens": 164295,
+        "total_words": 9255,
+        "total_chars": 72532,
+        "total_bytes": 176481,
+        "num_lines": 2000
+      },
+      "xlm-roberta-base": {
+        "per_line_avg_fertility": 3.030716092876049,
+        "per_line_avg_tpc": 0.392193450714823,
+        "global_fertility": 2.7773095623987034,
+        "global_tpc": 0.3543815143660729,
+        "global_tpb": 0.14564740680299862,
+        "global_tps": 12.852,
+        "total_tokens": 25704,
+        "total_words": 9255,
+        "total_chars": 72532,
+        "total_bytes": 176481,
+        "num_lines": 2000
+      }
+    },
+    "tam": {
+      "gpt2": {
+        "per_line_avg_fertility": 21.69040019951097,
+        "per_line_avg_tpc": 2.4862895994544125,
+        "global_fertility": 23.943529881273072,
+        "global_tpc": 2.62401661974141,
+        "global_tpb": 0.9862532928397943,
+        "global_tps": 239.986,
+        "total_tokens": 479972,
+        "total_words": 20046,
+        "total_chars": 182915,
+        "total_bytes": 486662,
+        "num_lines": 2000
+      },
+      "xlm-roberta-base": {
+        "per_line_avg_fertility": 2.6608566045691,
+        "per_line_avg_tpc": 0.3186574668370062,
+        "global_fertility": 2.6504040706375336,
+        "global_tpc": 0.29046278325998415,
+        "global_tpb": 0.10917227973418923,
+        "global_tps": 26.565,
+        "total_tokens": 53130,
+        "total_words": 20046,
+        "total_chars": 182915,
+        "total_bytes": 486662,
+        "num_lines": 2000
+      }
+    }
+  }
+}

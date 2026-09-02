@@ -1,0 +1,33 @@
+{
+  "original_output": "tokenizer: gpt2\nlang      fertility (tok/word)    tok/char\n------------------------------------------\neng                       1.17       0.412\nhin                      11.50       1.769\n\nhin is 9.86x the fertility of eng (worse tokenization)\n",
+  "controlled": {
+    "eng": [
+      [
+        7,
+        4,
+        17
+      ]
+    ],
+    "hin": [
+      [
+        23,
+        2,
+        13
+      ]
+    ]
+  },
+  "additional_checks": {
+    "double_space": {
+      "split_space": 6,
+      "split_whitespace": 4
+    },
+    "tabbed_whitespace": {
+      "split_space": 3,
+      "split_whitespace": 4
+    },
+    "unicode_nfc": {
+      "nfc": "Café",
+      "nfd": "Café"
+    }
+  }
+}
